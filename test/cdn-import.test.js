@@ -1,7 +1,7 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect } from 'npm:vitest' /* CHECKME: unknown that was prefixed */;
 import '../dist/RosLib.umd.cjs';
-import { readFileSync } from 'fs';
-import path from 'path';
+import { readFileSync } from 'node:fs';
+import path from 'node:path';
 
 describe('Using as if imported from a CDN', () => {
   it('Adds itself to the global namespace', () => {

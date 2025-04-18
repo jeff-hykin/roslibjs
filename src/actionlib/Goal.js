@@ -3,7 +3,7 @@
  * @author Russell Toris - rctoris@wpi.edu
  */
 
-import { EventEmitter } from 'eventemitter3';
+import { EventEmitter } from 'npm:eventemitter3';
 import Message from '../core/Message.js';
 import ActionClient from './ActionClient.js';
 

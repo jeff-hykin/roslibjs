@@ -3,7 +3,7 @@
  * @author Ramon Wijnands - rayman747@hotmail.com
  */
 
-import pngparse from 'pngparse';
+import pngparse from 'npm:pngparse';
 
 /**
  * @callback decompressPngCallback

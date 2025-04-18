@@ -1,7 +1,7 @@
-import { render, screen } from '@testing-library/react'
+import { render, screen } from 'npm:@testing-library/react'
 import App from './App'
-import React from 'react';
-import { expect, test } from 'vitest';
+import React from 'npm:react';
+import { expect, test } from 'npm:vitest';
 
 test('renders learn react link', () => {
   render(<App />)

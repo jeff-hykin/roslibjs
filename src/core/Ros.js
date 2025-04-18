@@ -11,7 +11,7 @@ import Param from './Param.js';
 import TFClient from '../tf/TFClient.js';
 import ActionClient from '../actionlib/ActionClient.js';
 import SimpleActionServer from '../actionlib/SimpleActionServer.js';
-import { EventEmitter } from 'eventemitter3';
+import { EventEmitter } from 'npm:eventemitter3';
 
 /**
  * Manages connection to the server and all interactions with ROS.

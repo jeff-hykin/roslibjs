@@ -1,4 +1,4 @@
-import { describe, it, expect, afterAll } from 'vitest';
+import { describe, it, expect, afterAll } from 'npm:vitest' /* CHECKME: unknown that was prefixed */;
 import * as ROSLIB from '../../src/RosLib.js';
 
 describe('Topics Example', function() {

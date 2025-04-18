@@ -1,7 +1,8 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect } from 'npm:vitest' /* CHECKME: unknown that was prefixed */;
 import * as ROSLIB from '../src/RosLib.js';
 
-import { DOMParser } from '@xmldom/xmldom';
+
+import { DOMParser } from 'npm:@xmldom/xmldom';
 // See https://developer.mozilla.org/docs/XPathResult#Constants
 var XPATH_FIRST_ORDERED_NODE_TYPE = 9;
 

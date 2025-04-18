@@ -1,5 +1,5 @@
-import { describe, it, expect } from 'vitest';
-import CBOR from 'cbor-js';
+import { describe, it, expect } from 'npm:vitest';
+import CBOR from 'npm:cbor-js';
 import cborTypedArrayTagger from '../src/util/cborTypedArrayTags.js';
 
 /** Convert hex string to ArrayBuffer. */

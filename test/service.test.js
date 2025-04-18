@@ -1,5 +1,5 @@
-import { it, describe, expect } from 'vitest';
-import { Service, Ros } from '../';
+import { it, describe, expect } from 'npm:vitest' /* CHECKME: unknown that was prefixed */;
+import { Service, Ros } from '../' /* CHECKME: path is folder, but no index.js or index.ts or mod.js or mod.ts */;
 
 describe('Service', () => {
   const ros = new Ros({

@@ -3,7 +3,7 @@
  * @author Sebastian Castro - sebastian.castro@picknik.ai
  */
 
-import { EventEmitter } from 'eventemitter3';
+import { EventEmitter } from 'npm:eventemitter3';
 import Ros from '../core/Ros.js';
 import { GoalStatus } from '../core/GoalStatus.ts';
 

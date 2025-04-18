@@ -4,7 +4,7 @@
  */
 
 import Ros from './Ros.js';
-import { EventEmitter } from 'eventemitter3';
+import { EventEmitter } from 'npm:eventemitter3';
 
 /**
  * A ROS service client.
